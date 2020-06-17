@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.App Nav {
+  padding: 15px;
+}
+
+.App .navText {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.App .btnNav {
+  background: #fe3f46;
+  color: white;
+  border-radius: 50px;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border: 2px solid white;
+  -webkit-transition: 200ms ease;
+  transition: 200ms ease;
+}
+
+.App .btnNav:hover {
+  background: white;
+  color: #fe3f46;
+  border: 2px solid #fe3f46;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.red-part {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.Home {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: #fe3f46;
+}
+
+.Home button {
+  background: white;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px;
+  padding-right: 55px;
+  padding-left: 55px;
+  border-radius: 50px;
+  margin-right: 35px;
+  border: 2px solid #fe3f46;
+  -webkit-transition: 200ms ease;
+  transition: 200ms ease;
+}
+
+.Home button:hover {
+  background: #fe3f46;
+  border: 2px solid white;
+  color: white;
+}
+
+.Home img {
+  margin-right: 50px;
+}
+
+.Home p {
+  color: white;
+}
+
+.Home h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.Home h1 span {
+  font-weight: bold;
+}
+
+.whatSection .row img {
+  border-radius: 50%;
+}
+
+.beneficialTimeTracker {
+  width: 100%;
+  background: #fe3f46;
+  padding: 75px;
+}
+
+.beneficialTimeTracker .container .row h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.beneficialTimeTracker .container .row p {
+  font-size: 25px;
+  font-weight: 300;
+  color: white;
+}
+
+.beneficialTimeTracker .container .row button {
+  background: white;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: 2px solid #fe3f46;
+  -webkit-transition: 200ms ease;
+  transition: 200ms ease;
+}
+
+.beneficialTimeTracker .container .row button:hover {
+  background: #fe3f46;
+  border: 2px solid white;
+  color: white;
+}
+
+footer {
+  padding: 35px;
+  width: 100%;
+  background: #fe3f46;
+  color: white;
+  line-height: 30px;
+}
+
+footer p {
+  font-size: 13px;
+  width: 80%;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  cursor: pointer;
+  -webkit-transition: 250ms ease;
+  transition: 250ms ease;
+}
+
+footer ul li:hover {
+  font-size: 20px;
+}
+
+.label {
+  font-size: 25px;
+}
+
+.LoginForm {
+  background: #fe3f46;
+  padding: 10rem 0;
+}
+
+.LoginForm .btn {
+  background: #fe3f46;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 5px 45px;
+  border-radius: 50px;
+}
+
+.LoginForm h1 {
+  margin-bottom: 3.5rem;
+}
+
+.LoginForm .logoForm {
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fe3f46;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  top: 10px;
+  cursor: pointer;
+  border: 2px solid white;
+  -webkit-transition: 250ms ease;
+  transition: 250ms ease;
+}
+
+.LoginForm .logoForm:hover {
+  background: white;
+  color: #fe3f46;
+  border: 2px solid #fe3f46;
+}
+
+.LoginForm .formSubmit {
+  position: relative;
+  width: 75%;
+  padding: 105px 70px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 17px 52px -21px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 17px 52px -21px rgba(0, 0, 0, 0.75);
+}
+
+.btnForm {
+  font-weight: 500 !important;
+  -webkit-transition: 250ms ease !important;
+  transition: 250ms ease !important;
+}
+
+.btnForm:hover {
+  background: white;
+  color: #fe3f46 !important;
+  border: 2px solid #fe3f46;
+}
+
+input {
+  border-radius: 5px;
+  border: 2px solid #c2c2c2;
+}
+
+input:focus {
+  outline: none;
+}
+
+.homeBtn {
+  background: #4C9AD8 !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 50px !important;
+  border: 2px solid #4C9AD8 !important;
+  margin-right: 10px;
+  font-weight: 600 !important;
+}
+
+.homeBtn:hover {
+  background: white !important;
+  color: #4C9AD8 !important;
+  border: 2px solid #4C9AD8;
+}
+
+.image_iPhone {
+  width: 95%;
+}
+
+.image_iPhone_second {
+  width: 80%;
+}
+
+@media screen and (max-width: 992px) {
+  .Home {
+    padding: 0;
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .formSubmit {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .homeBtn {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 561px) {
+  .image_iPhone {
+    display: none;
+  }
+  .laptop_image {
+    margin-top: 35px;
+  }
+  .image_iPhone_second {
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */

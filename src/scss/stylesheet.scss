@@ -1,0 +1,356 @@
+// Font family from @Google fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// Customize Components
+$background: #fe3f46;
+$white: white;
+
+// App class component
+.App {
+  Nav {
+    padding: 15px;
+  }
+
+  // Main text in the navBar
+  .navText {
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+  // Navigation bar buttons
+  .btnNav {
+    background: $background;
+    color: $white;
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border: 2px solid $white;
+    transition: 200ms ease;
+  }
+
+  // Buttons hover
+  .btnNav:hover {
+    background: white;
+    color: $background;
+    border: 2px solid $background;
+  }
+}
+
+// Every single element in HTML
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+// Red container at the left side of the page
+.red-part {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+// Home
+.Home {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: $background;
+
+  // Button
+  button {
+    background: $white;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+    padding-right: 55px;
+    padding-left: 55px;
+    border-radius: 50px;
+    margin-right: 35px;
+    border: 2px solid $background;
+    transition: 200ms ease;
+  }
+
+  // Button hover
+  button:hover {
+    background: #fe3f46;
+    border: 2px solid $white;
+    color: $white;
+  }
+
+  // Image
+  img {
+    margin-right: 50px;
+  }
+
+  // Paragraph
+  p {
+    color: white;
+  }
+
+  // H1
+  h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+
+    // span in h1
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+// What can you use app for section
+.whatSection {
+  .row {
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
+// Get started today section
+.beneficialTimeTracker {
+  width: 100%;
+  background: $background;
+  padding: 75px;
+
+  // Container
+  .container {
+
+    // Row
+    .row {
+
+      // h1
+      h1 {
+        color: white;
+        font-size: 60px;
+      }
+
+      // Paragraph
+      p {
+        font-size: 25px;
+        font-weight: 300;
+        color: white;
+      }
+
+      // button
+      button {
+        background: $white;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 15px 35px;
+        border-radius: 50px;
+        border: 2px solid #fe3f46;
+        transition: 200ms ease;
+      }
+
+      button:hover {
+        background: $background;
+        border: 2px solid $white;
+        color: $white;
+      }
+    }
+  }
+}
+
+// Footer
+footer {
+  padding: 35px;
+  width: 100%;
+  background: $background;
+  // Unlist Items
+  color: white;
+  line-height: 30px;
+
+  // paragraph
+  p {
+    font-size: 13px;
+    width: 80%;
+  }
+
+  // UnlistItems
+  ul {
+    list-style: none;
+
+    // ListItems
+    li {
+      cursor: pointer;
+      transition: 250ms ease;
+    }
+
+    // li hover
+    li:hover {
+      font-size: 20px;
+    }
+  }
+}
+
+// label
+.label {
+  font-size: 25px;
+}
+
+// Login form section
+.LoginForm {
+  background: #fe3f46;
+  padding: 10rem 0;
+
+  // Buttons in login form
+  .btn {
+    background: $background;
+    color: $white;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px 45px;
+    border-radius: 50px;
+  }
+
+  // h1
+  h1 {
+    margin-bottom: 3.5rem;
+  }
+
+  // Logo
+  .logoForm {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $background;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    top: 10px;
+    cursor: pointer;
+    border: 2px solid $white;
+    transition: 250ms ease;
+  }
+
+  // Logo : hover
+  .logoForm:hover {
+    background: white;
+    color: $background;
+    border: 2px solid $background;
+  }
+
+  // Form div container
+  .formSubmit {
+    position: relative;
+    width: 75%;
+    padding: 105px 70px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 17px 52px -21px rgba(0, 0, 0, 0.75);
+  }
+}
+
+// Button form
+.btnForm {
+  font-weight: 500 !important;
+  transition: 250ms ease !important;
+}
+
+// Button form hover
+.btnForm:hover {
+  background: $white;
+  color: $background !important;
+  border: 2px solid $background;
+}
+
+// Input field
+input {
+  border-radius: 5px;
+  border: 2px solid rgb(194, 194, 194);
+}
+
+// Input field : focus
+input:focus {
+  outline: none;
+}
+
+// Home Button 
+.homeBtn {
+  background: #4C9AD8 !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 50px !important;
+  border: 2px solid #4C9AD8 !important;
+  margin-right: 10px;
+  font-weight: 600 !important;
+}
+
+
+// Home Button : Hover 
+.homeBtn:hover {
+  background: white !important;
+  color: #4C9AD8 !important;
+  border: 2px solid #4C9AD8;
+}
+
+// Image iPhone 
+.image_iPhone {
+  width: 95%;
+}
+
+// image_iPhone_second 
+.image_iPhone_second {
+  width: 80%;
+}
+
+// Media screen for 992px screen width
+
+@media screen and (max-width: 992px) {
+  .Home {
+    padding: 0;
+    padding: 80px;
+  }
+}
+
+// Media screen for 770px screen width
+@media screen and (max-width: 770px) {
+  .formSubmit {
+    width: 100% !important;
+
+  }
+}
+
+// Media screen for 991px screen width
+@media screen and (max-width: 991px) {
+  .homeBtn {
+    margin-left: 15px;
+  }
+}
+
+
+// Media screen for 561px screen width
+@media screen and (max-width: 561px) {
+  .image_iPhone {
+    display: none;
+  }
+
+  .laptop_image {
+    margin-top: 35px;
+  }
+
+  .image_iPhone_second {
+    margin-top: 50px;
+  }
+}
