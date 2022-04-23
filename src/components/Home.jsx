@@ -26,7 +26,7 @@ export class Home extends Component {
               </div>
               <div className="col-lg-6">
                 <h1 className="title_home">
-                  <span>Give</span> a try to our <span>Tracker</span> app
+                  <span>Give</span> a try to our <span>Tracker</span> app&nbsp;
                   <span>FOR FREE </span>
                   in 2020!
                 </h1>
